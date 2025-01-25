@@ -3929,7 +3929,7 @@ only screen and (max-width: 767px) {
 }
 
 .hindu-video-bg {
-    background: url(./Home\ Banner.JPG);
+    background: url(../images/bg/hindu-video-bg.JPG);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat
