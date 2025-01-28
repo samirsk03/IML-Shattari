@@ -3064,7 +3064,7 @@ only screen and (max-width: 767px) {
 
 .hindu-hero-bg {
     background: url(./Home\ Banner.JPG);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
