@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx" scroll-behavior="Smooth">
+<html class="no-js" lang="zxx" class="m-0 p-0" scroll-behavior="Smooth">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,6 +24,15 @@
 
     <!-- css -->
     <style>
+      html,body{
+        width: 100%;
+        height: 100%;
+      }
+
+      *{
+        margin: 0;
+        padding: 0;
+      }
       .read-more-content {
         display: none;
         transition: max-height 0.5s ease; /* Smooth reveal effect */
@@ -35,7 +44,7 @@
     </style>
   </head>
 
-  <body>
+  <body class="m-0 p-0">
     <!--====================  header area ====================-->
     <div class="header-area header-area--default">
       <!-- Header Bottom Wrap Start -->
@@ -63,22 +72,17 @@
                         
                       </li>
                       <li class="has-children">
-                        <a href="about-us.html"><span>About</span></a>
+                        <a href="#about"><span>About</span></a>
                       </li>
                       <li class="has-children">
-                        <a href="events.html"><span>Events</span></a>
+                        <a href="#gallery"><span>Gallery</span></a>
                       </li>
-                      <li class="has-children has-children--multilevel-submenu">
-                        <!-- <ul class="submenu">
-                                                <li><a href="it-services.html"><span>IT Services</span></a></li>
-                                            </ul> -->
-                      </li>
-                      <li class="has-children has-children--multilevel-submenu">
-                        <a href=""><span>Social Causes</span></a>
-                      </li>
-
                       <li class="has-children">
-                        <a href="contact-us.html"><span>Contact</span></a>
+                        <a href="#events"><span>Events</span></a>
+                      </li>
+                      
+                      <li class="has-children">
+                        <a href="#contact"><span>Contact</span></a>
                       </li>
 
                     </ul>
@@ -128,9 +132,9 @@
       <!-- ======== Feature Area End ========== -->
 
       <!-- ======== Tai About Area Start ========== -->
-      <div class="tai-about-area section-space--ptb_120">
+      <div class="tai-about-area section-space--ptb_120 ">
         <div class="container-fluid pl-0 pr-0">
-          <div class="row no-gutters align-items-start">
+          <div class="row no-gutters w-full align-items-start">
             <div class="col-lg-6">
               <div class="about-tai-image">
                 <img
@@ -206,7 +210,7 @@
       <!-- ======== Tai About Area End ========== -->
 
       <!-- ======== Service Area Start ========== -->
-      <div class="service-area section-space--pb_120">
+      <div class="service-area section-space--pb_120 " id="about">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -233,47 +237,42 @@
                      Hazrat Bayazid Bustami
                   </h4>
                   <p>
-                    Shattari order (silsila) was introduced in India by Hazrat
-                    Abdullah Shattar Mast (d. 1472). He was great grandson
-                    (fifth generation) of Hazrat Shahbuddin Suharwardiya
-                    (Founder of Suharwardiya Khaanwad) and seventh lineage
-                  disciple to Hazrat Bayazid Bustami.</p><span class="read-more-content"> He was honored with
-                    Khilafat (Spiritual Deputyhood) from all of the 14 Sufi
-                    orders (Khanwaads or Gharaanaas).
-                  
-                  <p>
-                    Hazrat Abdullah Shattar Mast came from Iran and laid down
-                    the foundation and Doctrine of Shattari order in India and
-                    this order has flourished since then. After arriving in
-                    northern Bihar - India, he stayed in small towns like
-                    Daryapur, Manikpur, Jaunpur and Mandwa. He used to judge
-                    disciples even with their eating habits and would extend his
-                    teachings only to those who did proper justice to the food.
-                    Dressed in royal robes he used to travel on streets beating
-                    drums and openly invite people to witness GOD in his
-                    presence. His knowledge and authority in Spiritual matters
-                    was of highest degree.
+                    Shattari orders traces its origin to well known Sufi saint Hazrat Bayazid Bustami from Persia also known as Abu Yazid Bustami or Tayfur Abu Bustami. (804-874 CE). (15th Shaban 216 Hizri) (One of the 14 Sufi Khanwaad -e– Tayfuriya is founded by him)
                   </p>
-                  <p>
-                    Shrine of this great Sufi master is located in Kila Mandav,
-                    zilha Dhar, Madhya Pradesh. India
-                  </p>
-                  <p>
-                    Khilafat from him was passed on to Hazrat Allauddin Kaazan
-                    Shattari also known as Hazrat Shaikh Mohammed Ulaa. (d.1495)
-                    (11th shawwal 901 hijri) After receiving Khilafat he worked
-                    on his own spirituality, attained enlightenment and spent
-                    rest of his life in propagating spiritual Sufi messages in
-                    Shattari way. He lived in Muzzafarpur, a small town in
-                    southern Bihar – India. Shrine of Hazrat Allauddin Kaazan
-                    Shattari is located on a small hill in a small town near
-                    vaishali gadh, Hazipur Bihar. India. Near to his shrine we
-                    can find shrine of his eldest son Makhdoom Mansoor Halaaj
-                    Shaheed.
-                  </p>
+                  <span class="read-more-content"> One of his beautiful quotes is translated as follows. “I sloughed off my self as a snake sloughs off its skin. Then I looked into myself and saw that I am He”
                 </span>
                 <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+    <button class="read-more-btn">Read More...</button>
+                </div>
+              </div>
+              <!--// Single Service End -->
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+              <!-- Single Service Start -->
+              <div class="single-service-wrap mt-30">
+                <div class="service-image">
+                  <a href="#">
+                    <img
+                      src="assets/images/Dargah Photos/Hazrat Abdullah Shattar Mast.jpg"
+                      class="img-fluid"
+                      alt="Service image"
+                    />
+                  </a>
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">
+                    Hazrat Abdullah Shattar Mast                  
+                  </h4>
+                  <p>
+                    Shattari order (silsila) was introduced in India by Hazrat Abdullah Shattar Mast (d. 1472). He was great grandson (fifth generation) of Hazrat Shahbuddin Suharwardiya (Founder of Suharwardiya Khaanwad) and seventh lineage disciple to Hazrat Bayazid Bustami. He was honored with Khilafat (Spiritual Deputyhood) from all of the 14 Sufi orders (Khanwaads or Gharaanaas).
+                    <div class="read-more-content"> Hazrat Abdullah Shattar Mast came from Iran and laid down the foundation and Doctrine of Shattari order in India and this order has flourished since then. After arriving in northern Bihar - India, he stayed in small towns like Daryapur, Manikpur, Jaunpur and Mandwa. He used to judge disciples even with their eating habits and would extend his teachings only to those who did proper justice to the food. Dressed in royal robes he used to travel on streets beating drums and openly invite people to witness GOD in his presence. His knowledge and authority in Spiritual matters was of highest degree.
+                      Shrine of this great Sufi master is located in Kila Mandav, zilha Dhar, Madhya Pradesh. India
+                  </p>
+                </div>
+                <!-- Read More Button -->
+    <button class="read-more-btn">Read More...</button>
                 </div>
               </div>
               <!--// Single Service End -->
@@ -294,22 +293,17 @@
                 </div>
                 <div class="service-content">
                   <h4 class="service-title">
-                    Hazrat Allauddin Kaazan Shattari
+                    Hazrat Allauddin Kaazan Shattari 
                   </h4>
                   <p>
-                    Khilafat was further Passed on to Hazrat Abul Fatah
-                    Hidayatullah Sarmast (d 1538) (12th Shawwal 944 hijri) His
-                    shrine is located in a small village near Vaishali,
-                    Hajipur,  around 20 kilometers from Patna - Bihar. India.
-                    <div class="read-more-content"> This Village is situated on the banks of Ganga River. He was
-                    third son of Hazrat Allauddin Kaazan Shattari. Famous Mughal
-                    king Humayun was a dedicated follower of Hazrat Abul Fatah
-                    Hidayatullah Sarmast and took his advice on worldly,
-                    political and spiritual issues.
+                    Khilafat from him was passed on to Hazrat Allauddin Kaazan Shattari also known as Hazrat Shaikh Mohammed Ulaa. (d.1495) (11th shawwal 901 hijri) After receiving Khilafat he worked on his own spirituality, attained enlightenment and spent rest of his life in propagating spiritual Sufi messages in Shattari way. 
                   </p>
-                </div>
-                <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+                  <p class="read-more-content">
+                    He lived in Muzzafarpur, a small town in southern Bihar – India. Shrine of Hazrat Allauddin Kaazan Shattari is located on a small hill in a small town near vaishali gadh, Hazipur Bihar. India. Near to his shrine we can find shrine of his eldest son Makhdoom Mansoor Halaaj Shaheed.
+
+                  </p>
+                  <!-- Read More Button -->
+    <button class="read-more-btn">Read More...</button>
                 </div>
               </div>
               <!--// Single Service End -->
@@ -333,19 +327,87 @@
                     Hazrat Abul Fatah Hidayatullah Sarmast
                   </h4>
                   <p>
-                    Khilafat was further Passed on to Hazrat Shah Zahoor Haji
-                    Huzoor (d. 1523) (22nd Zilhaz 990 hijri)
+                    Khilafat was further Passed on to Hazrat Abul Fatah Hidayatullah Sarmast (d 1538) (12th Shawwal 944 hijri) His shrine is located in a small village near Vaishali, Hajipur,  around 20 kilometers from Patna - Bihar. India. This Village is situated on the banks of Ganga River. He was third son of Hazrat Allauddin Kaazan Shattari. Famous Mughal king Humayun was a dedicated follower of Hazrat Abul Fatah Hidayatullah Sarmast and took his advice on worldly, political and spiritual issues.
                   </p>
                   <p class="read-more-content">
-                    His shrine is located Malikana kabrastan, Ratan Sarai
-                    (Railway Station), Sivani, Bihar. India. It is believed that
-                    he adopted two children named Shaikh Fariduddin Jahangir and
-                    Shaikh Khatiruddin. These children are known in history as
-                    Shaikh Behlul Fatah and Hazrat Shaikh Mohammed Gouse
-                    Gwaliori respectively.
+                    
                   </p>
                   <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+    <button class="read-more-btn ">Read More...</button>
+                </div>
+              </div>
+              <!--// Single Service End -->
+            </div>
+            
+            
+            <div class="col-lg-4 col-md-6">
+              <!-- Single Service Start -->
+              <div class="single-service-wrap mt-30">
+                <div class="service-image">
+                  <a href="#">
+                    <img
+                      src="assets/images/Dargah Photos/Hazrat Shah Zahoor Haji Huzoor.jpg"
+                      class="img-fluid"
+                      alt="Service image"
+                    />
+                  </a>
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">
+                    Hazrat Shah Zahoor Haji Huzoor
+                  </h4>
+                  <p>
+                    Khilafat was further Passed on to Hazrat Shah Zahoor Haji Huzoor (d. 1523) (22nd Zilhaz 990 hijri)
+His shrine is located Malikana kabrastan, Ratan Sarai (Railway Station), Sivani, Bihar. India. It is believed that he adopted two children named Shaikh Fariduddin Jahangir and Shaikh Khatiruddin. These children are known in history as Shaikh Behlul Fatah and Hazrat Shaikh Mohammed Gouse Gwaliori respectively.
+
+                  </p>
+                  <p class="read-more-content">
+                  </p>
+                  <!-- Read More Button -->
+    <button class="read-more-btn">Read More...</button>
+                </div>
+              </div>
+              <!--// Single Service End -->
+            </div>
+            
+            
+            
+            <div class="col-lg-4 col-md-6">
+              <!-- Single Service Start -->
+              <div class="single-service-wrap mt-30">
+                <div class="service-image">
+                  <a href="#">
+                    <img
+                      src="assets/images/Dargah Photos/Shah Sultan Haji Hameed Mohammed Ghouse Gwaliori Shattari.JPG"
+                      class="img-fluid"
+                      alt="Service image"
+                    />
+                  </a>
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">
+                    Shah Sultan Haji Hameed Mohammed Ghouse Gwaliori Shattari
+                  </h4>
+                  <p>
+                    Greatness and fame of the Shattari order reached new height during the era of Shah Sultan Haji Hameed Mohammed Ghouse Gwaliori Shattari (d 1562). (14th Ramadan 970 hijri) It is commonly believed that this celebrated great saint had Afghan origin. Hereditarily, he belonged to the noble family. He was a son of Sayyid Hazir al-din (misspelled Khatir al-Din) Bayazid son of Khawajah Farid al-Attar son of Sima Wasil son of Ahmad al-Sadiq son Najibuddin Taqiyuddin son of Nur Allah Abu Bakr al-Ajli son of Ismail son of Ja'far al-Sadiq son of Muhammad al-Baqir son of Zayn al-Abidin son of Husayn son of Ali ibn Abi Talib.
+                  </p>
+                  <span class="read-more-content">
+                      <p>Royals like Babur, Humayun, and Akbar held him in very high esteem. He was a pioneer in adapting ancient Indian yogic practices and meditative techniques in folds of Sufism and was instrumental in promoting secular values in lives of royals and commoners around him. He authored many books such as Jawahar-e-Khamsa, Bahrul Hayat, Aurad-e-Ghosia, Risala-e-Mehraajiya, Jamaya, Kabid Makhajan, Kanjul Vahida, etc. His other scholarly works includes a hand written `Koran’ (translated in Persian language) which is over 400 years old and has passed down through generations and now present in safe custody of my master – Sufi Mohammed Saeed Ali Shah.</p>
+                      <p>
+                        He earned extra-ordinary Spiritual and super natural powers spending 13 years in solitude of forest (jungle of chinaar) surviving with eating leaves from tress and devoted all his life in quest of the ultimate truth, in deep meditation and continues remembrance of GOD.
+                      </p>
+                      <p>
+                        The spiritual formulas (Naqsh / Taaveez) innovated by him are still source of relief and blessings (Faiz) to one and all. Aasmaa-e-gousia is one such recitation (wird) which is has provided relief to all those who use it in times of difficulties. It has been experienced that recitation of this name `Yaa Mohammed Ghouse Gwaliori’ itself is cure to all kinds of physical, mental and spiritual diseases. And is a special help to wayfarer on shattari path to attain enlightment.
+                      </p>
+                      <p>
+                        His famous claim of experiencing the mystical journey `mehraaj’ thrice brought him trouble from extremist Islamic fronts to which he remained immune. Angered with this, Prominent and learned mufti of that time Hazrat Shah Wajihuudin Gujrati  (Ahmedabad) came to issue fatwah against this claim but after witnessing his spiritual station (maqaam), surrendered and become a worthy disciple of Mohammed Ghouse gwaliori. Legendary famous singer Hazrat Tansen was orphaned at young age. He grew up under care and spiritual influence of Hazrat Mohammed Gouse and became greatest singer of all time.  He was also one of the Khalifa (spiritual deputy) of Hazrat Mohammed Ghouse.
+                      </p>
+                      <p>
+                        His magnificent tomb, dating from c.1565 is the most famous Muslim monument in Gwalior, renowned for its beautiful perforated stone screen (jalis), which forms around the verandah surrounding the tomb’s central chamber. Each Jali is designed in unique beautiful pattern. The tomb is square stone building with a large central dome, which was originally covered with blue tiles, and hexagonal corner towers crowned by chhatris. (Pavilions).
+                      </p>
+                    </span>
+                  <!-- Read More Button -->
+    <button class="read-more-btn">Read More...</button>
                 </div>
               </div>
               <!--// Single Service End -->
@@ -369,16 +431,14 @@
                     Hazrat  Sayyed Shah Moulana Qutub-ul-Aktaab Haashim Peer Dastageer Husaini Kadri Shattari  (Bijapur, Karnataka) (7th Ramadan)
                   </h4>
                   <p>
-                    Hazrat Hashimpeer Datageer who represents the glorious traditions of Qadri and Shattari Sufi orders came to bijapur on specific instructions from the holy prophet of Islam. He was born and brought up in a highly scholastic atmosphere 
+                    Hazrat Hashimpeer Datageer who represents the glorious traditions of Qadri and Shattari Sufi orders came to bijapur on specific instructions from the holy prophet of Islam. He was born and brought up in a highly scholastic atmosphere particularly under influence of Hazrat Sayyedna Vajiuddin Gujarati, popularly known as Haider Ali Saani.
                   </p>
                   <p class="read-more-content">
-                    particularly under influence of Hazrat Sayyedna Vajiuddin Gujarati, popularly known as Haider Ali Saani.
-          It was rule of Ibrahim Adil Shah II when Hazrat Hashimpeer arrived in Bijapur. During his stay in Bijapur he influenced the rulers of Bijapur to give up their un-Islamic and heretic practices.
-          The world famous monument of Gol Gumbad is located near shrine of Hazrat Hashimpeer owes its completion to the 10 years of life which Hazrat Hasshimpeer granted to his disciple Sultan Mohammed Adil Shah.
-          
+                    It was rule of Ibrahim Adil Shah II when Hazrat Hashimpeer arrived in Bijapur. During his stay in Bijapur he influenced the rulers of Bijapur to give up their un-Islamic and heretic practices. <br>
+                    The world famous monument of Gol Gumbad is located near shrine of Hazrat Hashimpeer owes its completion to the 10 years of life which Hazrat Hasshimpeer granted to his disciple Sultan Mohammed Adil Shah.
                   </p>
                   <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+    <button class="read-more-btn">Read More...</button>
                 </div>
               </div>
               <!--// Single Service End -->
@@ -405,18 +465,17 @@
                     Hazrat Sufi Sarmast Ali Shah Qalander is one of the most luminous and prominent saint in Shattari Lineage. He is revered with several noble tittles such as `Kutb-e-Zamaa’ `Aulad –e-Rasool Allah’ and `Qalander’. He is a Symbol of the brave mysticism (Mard Faqiri) in Shattari Sufism. He is one of the first Sufi mystic who fearlessly used Sufi as his name. His real name and origin remains a mystery to the world.
                   </p>
                   <p class="read-more-content">
-                    He Received Khilafat from Hazrat Wajiuddin Guajarati Alvi (Bijapur) a direct descendant of Hazrat Hashim peer Dastageer. Latter he travelled to Nandura, a small village in Maharashtra where he built his Aastana still known as Sufi Baug.
-          The Spiritual beauty of this place is worth witnessing. He used to refer all beings including men, animals, trees and all creatures as Allah sahib. There are hundreds of miracles associated to him and followers still receive his constant blessings (Faiz) and miraculous help in worldly and spiritual journey. Urs Sharif of this great Sufi is celebrated with joy and love by increasing followers of all caste and creed alike.
+                    He Received Khilafat from Hazrat Wajiuddin Guajarati Alvi (Bijapur) a direct descendant of Hazrat Hashim peer Dastageer. Latter he travelled to Nandura, a small village in Maharashtra where he built his Aastana still known as Sufi Baug. <br>
+The Spiritual beauty of this place is worth witnessing. He used to refer all beings including men, animals, trees and all creatures as Allah sahib. There are hundreds of miracles associated to him and followers still receive his constant blessings (Faiz) and miraculous help in worldly and spiritual journey. Urs Sharif of this great Sufi is celebrated with joy and love by increasing followers of all caste and creed alike.
                   </p>
                   <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+    <button class="read-more-btn">Read More...</button>
                 </div>
               </div>
               <!--// Single Service End -->
             </div>
-            
-            
-            
+
+
             <div class="col-lg-4 col-md-6">
               <!-- Single Service Start -->
               <div class="single-service-wrap mt-30">
@@ -437,16 +496,16 @@
                     Although very little is known about this Sufi Fakir of Shattari tradition. He has been an icon of humbleness and simplicity propagated by Sufi Shattarism.
                   </p>
                   <p class="read-more-content">
-                   
+                    
                   </p>
                   <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+    <button class="read-more-btn">Read More...</button>
                 </div>
               </div>
               <!--// Single Service End -->
             </div>
-
-
+           
+           
             <div class="col-lg-4 col-md-6">
               <!-- Single Service Start -->
               <div class="single-service-wrap mt-30">
@@ -461,53 +520,22 @@
                 </div>
                 <div class="service-content">
                   <h4 class="service-title">
-                   Hazrat  Sufi Ghafoor Shah Qalander Husaini  Kadri Shattari  (Ganesh peth, Daroowala pool, Pune - Maharashtra) (d. 26 Oct. 1949)(3rd zilhaj 1368 hijri) 
+                    Hazrat  Sufi Ghafoor Shah Qalander Husaini  Kadri Shattari  (Ganesh peth, Daroowala pool, Pune - Maharashtra) (d. 26 Oct. 1949)(3rd zilhaj 1368 hijri)
                   </h4>
                   <p>
                     Hazrat Sufi Gafoor Shah Qadri Shattari also known as Gaffar Baig is another shining star in the shattari skies. His family derives noble connection from Hazrat Sayyed Hashim youngest son of Hazrat Abdul Kader Zilani – Baghdad.
-Born in a rich Muslim family in a place called Muradabad latter moved to Pune along with his family. He was inclined towards religion from a very young age. He had burning desire for knowledge and in this quest he himself became a scholar in Islamic studies. He had great command on Urdu and Persian Language.
                   </p>
                   <p class="read-more-content">
-                    He was a brilliant professor in Government training collage in pune. Latter he became an Imam in a mosque at daroowala pool – Pune. Although grounded in Islamic orthodoxy, he still felt that he was away from the ultimate truth and longed for a master who would lead him to salvation.
-                    During this time he happened to meet a fakir near his mosque who openly offered people the right and direct path to meet GOD and denounced the narrow minded approach to Islam. This Fakir who instantly caught attention of Hazrat Gafoor Shah was Hazrat Abdullah Shah Hussaini (Disciple of Hazrat Sufi Sarmast Ali Shah).
-                    In this manner he was introduced to Shattari Lineage. His heart melted with the teachings of Hazrat Abdullah Shah Hussaini but being an Islamic Scholar for so many years his mind was not fully convinced and he demanded quranic explanation for all beautiful revelation of the Shattari path.
-                    On this he was directed to go to Nandura and visit Hazrat Sufi Sarmast Ali Shah. When he reached there very soon he realized that he has reached the truth itself and under guidance of Hazrat Sufi Sarmast Ali Shah Qalender became enlightened almost instantly. He gave up his worldly life, riches and family. He did get married due to family pressure but did not consummate the marriage. He relieved his wife on the next day lawfully with respect and apologies and continued on his mission to serve Shattari lineage. There are volumes of literature and poems (more than 5000 nos.) authored by him which are source of wisdom for generation to come. His pen names were `Safeer’ and `Sufi Sarmast’. Few of his famous works are a) Savaane hayaat Mehboob-e-Subhani. b) Karbala ke baad. c) Hurf-e-Muqatteaat. d) Sirre Haqiqat.
-                    Great political leaders of that time like Lokmanya Tilak and Mahatma Jyotiba Phule considered him as guru and use to come to him for guidance. Mahatma Jyotiba Phule has written a book (in local language – Marathi) in his honor called `Yancha Alp parichay’ meaning `his brief introduction’ and is still available in Pune Central library.
+                    Hazrat Sufi Gafoor Shah Qadri Shattari also known as Gaffar Baig is another shining star in the shattari skies. His family derives noble connection from Hazrat Sayyed Hashim youngest son of Hazrat Abdul Kader Zilani – Baghdad. <br>
+Born in a rich Muslim family in a place called Muradabad latter moved to Pune along with his family. He was inclined towards religion from a very young age. He had burning desire for knowledge and in this quest he himself became a scholar in Islamic studies. He had great command on Urdu and Persian Language. He was a brilliant professor in Government training collage in pune. Latter he became an Imam in a mosque at daroowala pool – Pune. Although grounded in Islamic orthodoxy, he still felt that he was away from the ultimate truth and longed for a master who would lead him to salvation. <br>
+During this time he happened to meet a fakir near his mosque who openly offered people the right and direct path to meet GOD and denounced the narrow minded approach to Islam. This Fakir who instantly caught attention of Hazrat Gafoor Shah was Hazrat Abdullah Shah Hussaini (Disciple of Hazrat Sufi Sarmast Ali Shah). <br>
+In this manner he was introduced to Shattari Lineage. His heart melted with the teachings of Hazrat Abdullah Shah Hussaini but being an Islamic Scholar for so many years his mind was not fully convinced and he demanded quranic explanation for all beautiful revelation of the Shattari path.
+On this he was directed to go to Nandura and visit Hazrat Sufi Sarmast Ali Shah. When he reached there very soon he realized that he has reached the truth itself and under guidance of Hazrat Sufi Sarmast Ali Shah Qalender became enlightened almost instantly. He gave up his worldly life, riches and family. He did get married due to family pressure but did not consummate the marriage. He relieved his wife on the next day lawfully with respect and apologies and continued on his mission to serve Shattari lineage. There are volumes of literature and poems (more than 5000 nos.) authored by him which are source of wisdom for generation to come. His pen names were `Safeer’ and `Sufi Sarmast’. Few of his famous works are a) Savaane hayaat Mehboob-e-Subhani. b) Karbala ke baad. c) Hurf-e-Muqatteaat. d) Sirre Haqiqat. <br>
+Great political leaders of that time like Lokmanya Tilak and Mahatma Jyotiba Phule considered him as guru and use to come to him for guidance. Mahatma Jyotiba Phule has written a book (in local language – Marathi) in his honor called `Yancha Alp parichay’ meaning `his brief introduction’ and is still available in Pune Central library.
+
                   </p>
                   <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
-                </div>
-              </div>
-              <!--// Single Service End -->
-            </div>
-            
-            
-            <div class="col-lg-4 col-md-6">
-              <!-- Single Service Start -->
-              <div class="single-service-wrap mt-30">
-                <div class="service-image">
-                  <a href="#">
-                    <img
-                      src="assets/images/Dargah Photos/Hazrat Allauddin Kaazan Shattari.jpg"
-                      class="img-fluid"
-                      alt="Service image"
-                    />
-                  </a>
-                </div>
-                <div class="service-content">
-                  <h4 class="service-title">
-                    Hazrat  Sufi Hidayatulllah Shah Husaini  Kadri Shattari  (Nandura – Dist. Buldhana, Maharashtra) (d. 10th oct. 1993) (14th rabi-ul-Aakhir 1414)  
-                  </h4>
-                  <p>
-                    He was originally known as Abdul Hafeez Shaikh. He was murid of Hazrat Gafoor Shah Kadri Shattari and honor of Khilafat was bestowed upon him by Hazrat Mohammed Shah Husaini. Born in a poor family and after losing his mother in early childhood he was forced to an orphanage along with his younger sister Bibi Fatima and brother Suja Ahmed.
-                  </p>
-                  <p class="read-more-content">
-                    But Sufi Mohammed Shah who was a distant relative to them did not approve of this and took these children under his own safe custody. He grew up under Sufi influence of Hazrat Mohammed Shah Husaini from whom he learned all core aspect of Sufism and developed extra-ordinary authority on `tassawuf’ and `Irfan’. Although he had very little formal education he developed excellent command in URDU language with his own initiative. After receiving Khilafat he gave up his job as a driver and dedicated all his life to the service of Shattari Silisila.
-Simplicity, humbleness, innocence, and politeness all these words are ineffective and inadequate to describe the pure `Khaksari’ of this saint.  His love and sincerity towards Shattari Silisila earned him his resting place next to Hazrat Sufi Sarmast Alisha Qalander in Sufi Baug (Nandura)
-He passed on Khilafat and bestowed Sajjada Nashini to his beloved disciple Sufi Mohammed Saeed Ali Shah son of Hazrat Mohammed Shah Hussaini.
-                  </p>
-                  <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+    <button class="read-more-btn">Read More..</button>
                 </div>
               </div>
               <!--// Single Service End -->
@@ -528,33 +556,65 @@ He passed on Khilafat and bestowed Sajjada Nashini to his beloved disciple Sufi 
                 </div>
                 <div class="service-content">
                   <h4 class="service-title">
-                    Hazrat  Qutub-e-Zamaa Sufi Mohammed Shah Husaini  Kadri Shattari  (Ganesh peth, Daroowala pool, Pune - Maharashtra) (d. 14 March 1968) (14th zilhaj 1389) 
+                    Hazrat  Qutub-e-Zamaa Sufi Mohammed Shah Husaini  Kadri Shattari  (Ganesh peth, Daroowala pool, Pune - Maharashtra) (d. 14 March 1968) (14th zilhaj 1389)
                   </h4>
                   <p>
-                    during early years was known as Mohammed Shafi until he was given this new name by his Murshid. He was born in a humble Muslim family in Usmanabad, Maharashtra. He lost his father, Mohammed Saheb early in his childhood. He was brought up in extreme hardship by his mother, Aminabi. At the age of 5 years he accompanied his mother to Pune where they stayed in a small Muslim locality known as `Bambaiwala Bada’.
-                  </p>
+                    During early years was known as Mohammed Shafi until he was given this new name by his Murshid. He was born in a humble Muslim family in Usmanabad, Maharashtra. He lost his father, Mohammed Saheb early in his childhood. He was brought up in extreme hardship by his mother, Aminabi. At the age of 5 years he accompanied his mother to Pune where they stayed in a small Muslim locality known as `Bambaiwala Bada’. They started weaving handlooms from their home to make the ends meet. He joined a Madarsa at Daruwala Pool Masjid for basic education of Urdu, Arabic and Persian. He had the good fortune of being a student of Hazrat Gafoor Shah Kadri who himself used to teach in this Madarsa during that time.
                   <p class="read-more-content">
-                    They started weaving handlooms from their home to make the ends meet. He joined a Madarsa at Daruwala Pool Masjid for basic education of Urdu, Arabic and Persian. He had the good fortune of being a student of Hazrat Gafoor Shah Kadri who himself used to teach in this Madarsa during that time.
-                    The Thirst for exploring mystical Islam took him close to Hazrat Gafoor Shah who made him his discipline and latter honored him with Khilafat. He shared exceptional love with his Murshid and received the spiritual guidance and blessings to progress on the inner path. During this time he shifted with his mother to Bombay and worked as truck driver to make a living. He got married to Bibi Aminabi and had three children. Bibi Aminabi was dedicated disciple of Hazrat Gafoor Shah Kadri while her eldest son Sufi Zaheer was the last disciple of Hazrat Gafoor Shah.
+                    The Thirst for exploring mystical Islam took him close to Hazrat Gafoor Shah who made him his discipline and latter honored him with Khilafat. He shared exceptional love with his Murshid and received the spiritual guidance and blessings to progress on the inner path. During this time he shifted with his mother to Bombay and worked as truck driver to make a living. He got married to Bibi Aminabi and had three children. Bibi Aminabi was dedicated disciple of Hazrat Gafoor Shah Kadri while her eldest son Sufi Zaheer was the last disciple of Hazrat Gafoor Shah. <br>
                      Living a humble life from exterior but inside he was a king illuminated with divine light of the ultimate truth. He achieved enlightenment and all secret wisdom with his inner work. He expressed his spiritual ecstasy through his poems. He was a poet beyond compare and even his murshid was fond of his style of writing and depth of his knowledge. His pen name was `Anjum’. His poem and writings still recited fondly by the followers. He practiced `Hakimi’ ancient medicine and `Taviz-Naksh’ the magical Quranic formulas effectively for welfare of people. He attained the spiritual station of `Qutb-e-zamaa’. He is one of the most fortunate one to be resting beside his murshid, Hazrat Sufi Gafoor Shah Dargah – Poona.  Sajjada Nashini of this Dargah was bestowed to his worthy son Hazrat Mohammed Saeed Ali Shah Kaadri Shattari who continues to be the custodian of this great heritage – Alhamdulillah!!!
+                    
+
                   </p>
                   <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+    <button class="read-more-btn">Read More..</button>
                 </div>
               </div>
               <!--// Single Service End -->
             </div>
-           
-           
+
+
             <div class="col-lg-4 col-md-6">
               <!-- Single Service Start -->
               <div class="single-service-wrap mt-30">
                 <div class="service-image">
                   <a href="#">
                     <img
-                      src="assets/images/Dargah Photos/Shah Sultan Haji Hameed Mohammed Ghouse Gwaliori Shattari.JPG"
+                      src="assets/images/Dargah Photos/Hazrat sufi "
                       class="img-fluid"
-                      alt="Service image"
+                      alt="Service image(img not available)"
+                    />
+                  </a>
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">
+                    Hazrat  Sufi Hidayatulllah Shah Husaini  Kadri Shattari  (Nandura – Dist. Buldhana, Maharashtra) (d. 10th oct. 1993) (14th rabi-ul-Aakhir 1414) 
+                  </h4>
+                  <p>
+                    Was originally known as Abdul Hafeez Shaikh. He was murid of Hazrat Gafoor Shah Kadri Shattari and honor of Khilafat was bestowed upon him by Hazrat Mohammed Shah Husaini. Born in a poor family and after losing his mother in early childhood he was forced to an orphanage along with his younger sister Bibi Fatima and brother Suja Ahmed. But Sufi Mohammed Shah who was a distant relative to them did not approve of this and took these children under his own safe custody. He grew up under Sufi influence of Hazrat Mohammed Shah Husaini from whom he learned all core aspect of Sufism and developed extra-ordinary authority on `tassawuf’ and `Irfan’. Although he had very little formal education he developed excellent command in URDU language with his own initiative. After receiving Khilafat he gave up his job as a driver and dedicated all his life to the service of Shattari Silisila.
+
+                  </p>
+                  <p class="read-more-content">
+                    Simplicity, humbleness, innocence, and politeness all these words are ineffective and inadequate to describe the pure `Khaksari’ of this saint.  His love and sincerity towards Shattari Silisila earned him his resting place next to Hazrat Sufi Sarmast Alisha Qalander in Sufi Baug (Nandura) <br>
+                    He passed on Khilafat and bestowed Sajjada Nashini to his beloved disciple Sufi Mohammed Saeed Ali Shah son of Hazrat Mohammed Shah Hussaini.
+                  </p>
+                  <!-- Read More Button -->
+    <button class="read-more-btn">Read More..</button>
+                </div>
+              </div>
+              <!--// Single Service End -->
+            </div>
+            
+
+            <div class="col-lg-4 col-md-6">
+              <!-- Single Service Start -->
+              <div class="single-service-wrap mt-30">
+                <div class="service-image">
+                  <a href="#">
+                    <img
+                      src="assets/images/Dargah Photos/Hazrat sufi moham"
+                      class="img-fluid"
+                      alt="Service image{img not available}"
                     />
                   </a>
                 </div>
@@ -563,16 +623,16 @@ He passed on Khilafat and bestowed Sajjada Nashini to his beloved disciple Sufi 
                     Hazrat Sufi Mohammed Saeed Ali Shah
                   </h4>
                   <p>
-                     He is also known with the title `Sufi Saheb’ by many of his followers. Born on 5th May 1942 as 4th child in the family of 6 children in `Bhendi Bazaar’ locality of Bombay. He is the worthy son of Hazrat Mohammed Shah Husaini Kadri Shattari. (A renowned Shattari Saint – discussed in above passages). He graduated in science (B. Sc) from Jai Hind collage in 1965 with distinction.
+                    He is also known with the title `Sufi Saheb’ by many of his followers. Born on 5th May 1942 as 4th child in the family of 6 children in `Bhendi Bazaar’ locality of Bombay. He is the worthy son of Hazrat Mohammed Shah Husaini Kadri Shattari. (A renowned Shattari Saint – discussed in above passages). He graduated in science (B. Sc) from Jai Hind collage in 1965 with distinction. 
                   </p>
                   <p class="read-more-content">
-                    He has been extremely hard working since childhood and was never ashamed of doing any kind job to help his mother, Aminabi, who used to make `bidis’ at home to afford a living and education to her children. His hardwork and honesty rewarded him with extremely successful career. He got married to Bibi Rabia in 1969. Being an ideal life partner, Sufi Rabia bi has been a source of support and motivation to Sufi Saheb. Sufi Saheb managed to give luxurious life to his entire family. But being from the royal blood, success never affected his pure self and he remained a Sufi Faqir from within. He became murid of Hazrat Sufi Hiyadullah Shah Husiani in 1969 at Gwalior inside the dargah of Hazrat Mohammed Ghouse Gwaliori. He was blessed with Khilafat in the year 1975 and was crowned as Sajjada nashin in 1981. As he reached to higher managerial level in his career the corruption, dishonesty, greed and foul politics around him started to suffocate him as all this was contradictory to his Sufi teachings and above all his own pure self. He resigned from the job and devoted all his energies towards the welfare of Shattari Silsila.
+                    He has been extremely hard working since childhood and was never ashamed of doing any kind job to help his mother, Aminabi, who used to make `bidis’ at home to afford a living and education to her children. His hardwork and honesty rewarded him with extremely successful career. He got married to Bibi Rabia in 1969. Being an ideal life partner, Sufi Rabia bi has been a source of support and motivation to Sufi Saheb. Sufi Saheb managed to give luxurious life to his entire family. But being from the royal blood, success never affected his pure self and he remained a Sufi Faqir from within. He became murid of Hazrat Sufi Hiyadullah Shah Husiani in 1969 at Gwalior inside the dargah of Hazrat Mohammed Ghouse Gwaliori. He was blessed with Khilafat in the year 1975 and was crowned as Sajjada nashin in 1981. As he reached to higher managerial level in his career the corruption, dishonesty, greed and foul politics around him started to suffocate him as all this was contradictory to his Sufi teachings and above all his own pure self. He resigned from the job and devoted all his energies towards the welfare of Shattari Silsila. <br>
                     He has always been a torch bearer of Shattari lineage ever since the responsibility of Khilafat and Sajjadagi was bestowed upon him by Hazrat Sufi Hidayatullah Kadri Shattari who loved him more than his own children. For more than 40 years he has given selfless service and has completely offered his being to the cause of Shattari Silsila. His contribution to this Silsila  has been all round including financial, spiritual, ethical and social support. Sufi Gafoor Shah Dargah trust was formed by him in 1988 and introduced Sufi Shattari Jamaat in the year 2003.
-                    His love for his murshid is beyond imagination of common man and his eyes still gets moist when someone mentions his murshids name.
+                    His love for his murshid is beyond imagination of common man and his eyes still gets moist when someone mentions his murshids name. <br>
                     He remains a power house of Spiritual wisdom and his understanding of Sufi Mysticism makes him one of the greatest saints of present times. Yet the child like innocence in his eyes sweeps you of your feet.
-                  </p>
+                    </p>
                   <!-- Read More Button -->
-    <button class="read-more-btn">Read More</button>
+    <button class="read-more-btn">Read More..</button>
                 </div>
               </div>
               <!--// Single Service End -->
@@ -591,8 +651,7 @@ He passed on Khilafat and bestowed Sajjada Nashini to his beloved disciple Sufi 
       <!-- ======== Donation Area End ========== -->
 
       <!-- ======== Hindu Video Area Start ========== -->
-       <!-- ======== Hindu Video Area Start ========== -->
-       <div class="hindu-video-area p-8 m-4">
+      <div id="gallery" class="hindu-video-area p-8 m-4">
         <div class="container-fluid container-fluid--cp-100">
             <div class="hindu-video-bg hindu-video-section-pb bg-overlay-black border-radius-5">
                 <div class="row justify-content-center">
@@ -610,14 +669,55 @@ He passed on Khilafat and bestowed Sajjada Nashini to his beloved disciple Sufi 
                 </div>
             </div>
         </div>
-    </div>
-    <!-- ========  Hindu Video Area End ========== -->
-
-
+      </div>
+      <!-- ========  Hindu Video Area End ========== -->
+      <!-- ======== Hindu Video Area Start ========== -->
+      <div  class="hindu-video-area p-8 m-4">
+        <div class="container-fluid container-fluid--cp-100">
+            <div class="hindu-video-bg hindu-video-section-pb bg-overlay-black border-radius-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="video-content-wrap text-center position-relative">
+                            <div class="icon">
+                                <a href="https://www.youtube.com/watch?v=uI5xHHVeP1o" class="video-link popup-youtube"><img src="assets/images/icons/play-circle.png" alt="Video Icon"></a>
+                            </div>
+                            <div class="content section-space--mt_80">
+                                <h3 class="text-white mb-10">Best speech on religious life</h3>
+                                <p class="text-white">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- ========  Hindu Video Area End ========== -->
+      <!-- ======== Hindu Video Area Start ========== -->
+      <div  class="hindu-video-area p-8 m-4">
+        <div class="container-fluid container-fluid--cp-100">
+            <div class="hindu-video-bg hindu-video-section-pb bg-overlay-black border-radius-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="video-content-wrap text-center position-relative">
+                            <div class="icon">
+                                <a href="https://www.youtube.com/watch?v=uI5xHHVeP1o" class="video-link popup-youtube"><img src="assets/images/icons/play-circle.png" alt="Video Icon"></a>
+                            </div>
+                            <div class="content section-space--mt_80">
+                                <h3 class="text-white mb-10">Best speech on religious life</h3>
+                                <p class="text-white">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
       <!-- ========  Hindu Video Area End ========== -->
 
+
+
       <!-- ======== other events Area Start ========== -->
-      <section class="bg-gradient-to-r from-blue-50 via-white to-blue-50 py-12">
+      <section id="events" class="bg-gradient-to-r from-blue-50 via-white to-blue-50 py-12">
         <div class="container mx-auto px-4">
           <!-- Section Title -->
           <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">
@@ -658,7 +758,7 @@ He passed on Khilafat and bestowed Sajjada Nashini to his beloved disciple Sufi 
 
       
     <!--========== Footer Area Start ==========-->
-    <footer class="footer-area bg-footer">
+    <footer id="contact" class="footer-area bg-footer">
       <div class="footer-top section-space--ptb_80 section-pb text-white">
         <div class="container">
           <div class="row">
@@ -822,25 +922,23 @@ He passed on Khilafat and bestowed Sajjada Nashini to his beloved disciple Sufi 
           <nav class="offcanvas-navigation">
             <ul>
               <li class="has-children">
-                <a href="index.html">Home</a>
+                <a href="#">Home</a>
                
               </li>
               <li class="has-children">
-                <a href="about-us.html">about</a>
+                <a href="#about">about</a>
               </li>
               <li class="has-children">
-                <a href="events.html">Evnets</a>
+                <a href="#events">Events</a>
               </li>
              
               <li>
-                <a href="gallery.html"><span>Gallery</span></a>
-              </li>
-              <li class="has-children">
-                <a href="causes.html">Social Causes</a>
+                <a href="#gallery"><span>Gallery</span></a>
               </li>
               
+              
               <li class="has-children">
-                <a href="contact-us.html">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>

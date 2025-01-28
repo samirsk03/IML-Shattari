@@ -3064,7 +3064,8 @@ only screen and (max-width: 767px) {
 
 .hindu-hero-bg {
     background: url(./Home\ Banner.JPG);
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .hero-style-01 {
